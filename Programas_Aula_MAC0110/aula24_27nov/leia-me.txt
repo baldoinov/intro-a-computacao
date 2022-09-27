@@ -1,0 +1,30 @@
+
+
+Você pode  executar o seu programa na linha de comando, dando o seguinte comando
+
+
+
+> python matriz_palavras_cruzadas.py  < dados_palavras_cruzadas.txt
+
+
+Com esse comando, o arquivo dados_palavras_cruzadas.txt será "lido" pelo
+programa, e vc  não precisará fornecer pelo teclado.
+
+
+OBS:  Use o arquivo dados_palavras_cruzadas.txt que está neste diretório.
+
+OBS: Se for fazer este tipo de leitura, pode-se remover as mensagens
+do tipo "Digite .....".
+
+
+    nlin = int(input("Digite o número de linhas da matriz: "))
+    ncol = int(input("Digite o número de colunas da matriz: "))
+
+
+Poderia ficar simplesmente:
+
+
+    nlin = int(input())
+    ncol = int(input())
+
+

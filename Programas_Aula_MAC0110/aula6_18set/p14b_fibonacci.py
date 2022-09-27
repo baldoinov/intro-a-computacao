@@ -1,0 +1,48 @@
+
+# programa 14b  ---  p14b_fibonnaci.py
+# ------------------------------------
+# Dado um inteiro k (k>=0), imprimir os k primeiros termos
+# da sequência de Fibonacci.
+# (Note que, se k=5, o programa deve imprir F(0),F(1),...,F(4).)
+# (Se k=0, o programa não deve imprimir nada.)
+# 
+# F(0)=0; F(1)=1;
+# F(n) = F(n-2) + F(n-1), para n>=2.
+##############################################
+
+def main():
+    k = int(input("Digite k (para imprimir os k primeiros termos da seq. de Fibonacci):  "))
+  
+    n2 = 0    #  inicialmente F(0); genericamente F(n-2) 
+    n1 = 1    #  inicialmente F(1); genericamente F(n-1)
+    cont = 0
+  
+    while (cont < k):
+        print("Número de Fibonacci F(%d) = %4d" %(cont, n2))
+        n = n2 + n1   # corresponde a F(n) = F(n-2) + F(n-1)
+        n2 = n1
+        n1 = n 
+        cont = cont + 1
+# --------------
+main()
+
+
+# Exercício fibo_ex1
+# Mude o programa acima (faça outro e chame-o de fibo_ex1.py)
+# de modo que esse novo programa imprima os termos 
+# F(0), F(1),...., F(k-1) separados por vírgula (sem mudança de linha).
+
+
+# Exercício fibo_ex2
+# Mude o programa acima (faça outro e chame-o de fibo_ex2.py
+# de modo que esse novo programa resolva o seguinte problema:
+# Dado um inteiro k, não-negativo, imprima APENAS o termo F(k).
+# 
+
+
+
+
+
+
+
+  

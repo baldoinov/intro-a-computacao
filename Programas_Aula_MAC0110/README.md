@@ -1,0 +1,1 @@
+Esses são os programas mostrados em aula na matéria MAC0110. O objetivos de deixá-los aqui é reproduzi-los em uma pasta separada como forma de treino, sem realizar a copia dos exercícios.

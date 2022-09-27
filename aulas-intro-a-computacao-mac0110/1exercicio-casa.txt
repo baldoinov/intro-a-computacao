@@ -1,0 +1,55 @@
+# Exerc�cio:
+# ========== 
+# completar o texto abaixo de modo a ter um programa em Python
+# que resolva o problema mencionado abaixo.
+# Execute o seu programa para verificar se est� correto.
+# Se vc ainda n�o instalou o Python, pode usar o site:
+#
+#     https://repl.it/languages/
+#
+# e escolha a opcao Python
+#
+# Copie o seu programa na janela do meio e escolha "RUN" (executar)
+# na pare superior direita.
+# 
+# Na janela do lado direito vc pode testar ou executar
+# trechos (de ou um program inteiro) em Python. Tem que cuidar da
+# indenta��o (conforme voc�s est�o aprendendo).
+# Teste � vontade, para ir descobrindo coisas.
+#--------------------------------------------------------------
+
+ # ----------------------------------------------------------------
+ #      Exerc�cio para usar o comando "while"  (enquanto)
+ # ================================================================
+ # 
+ # programa aula4-ex  --  soma_ate_0.py
+ # -------------------------------
+ # Este programa resolve o seguinte problema:
+ #
+ # Dada uma sequencia de inteiros, cujo �ltimo termo � um zero,
+ # determinar a soma dos inteiros que foram dados.
+ #
+ # (OBS: o zero � usado para informar que acabou a sequencia.)
+ # Exemplo: Se for dada a sequencia:  25  30  2  78  10  0
+ # o seu programa deve imprimir que a soma � 145
+ # ....................................................
+
+def main():
+    print("Fornecer, um a um, v�rios n�meros inteiros e terminar a cole��o fornecendo o zero")
+
+    
+    
+     
+
+
+
+
+
+
+
+
+
+
+
+
+  

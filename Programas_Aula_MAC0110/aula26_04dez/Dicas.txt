@@ -1,0 +1,114 @@
+
+DICAS:
+
+
+1) Olhem o material da AULA-24 ou AULA-25
+
+    -- Olhem os programas  (matriz_palavras_cruzadas.py  e palavras_cruzadas_plus.py)
+
+         --- Tem várias coisas úteis para aproveitar para o EP4. Parte da moldura,
+	     parte de  guardar lista de pares (i,j),  e parte de impressão dos pares (i,j)
+
+   -- Olhem o arquivo: marcacao-do-labirinto.pdf
+   
+      Aqui tem dicas de como fazer a marcacao do labirinto (já com a moldura)
+      Trabalhar com a ideia de uma lista (chamada fila neste arquivo), e os
+      marcadores de posição "início"e "fim" dessa fila.
+      A marcacao ocorre enquanto inicio <= fim
+
+
+2) Façam a parte da leitura de arquivo (dos dados do labirinto)
+   veja o programa (está na AULA-25 e AULA-26:
+        Exemplo_Entrada_Saida_arquivo.py
+
+   Vejam esse exemplo para ler o labirinto e montar o labirinto com moldura.
+    
+   A seguir, vão algumas dicas sobre essa construcao.
+   (Outra ideia é criar antes uma matriz com -1 como no programa das palavras_cruzadas,
+    e depois à medida que ler uma linha do labirinto, guardar os valores lidos nessa
+    maatriz grande que já tem -1 em todas as posições.)
+    
+
+Suponha que Labirinto dado seja assim
+
+matriz Lab tem dimensao 4x 5
+
+lin = 4    col = 5
+
+  1      2     3     4      5
+  6      7     8     9     10
+ 11     12    13    14     15
+ 16     17    18    19     20 
+
+--------------------------------
+
+Arquivo de dados (deve ter nas 3 primeiras linhas) 
+
+4  5        #  4 linhas e 5 colunas 
+1  1        #  origem: par (i, j)
+4  5        #  destino: par (4, 5) 
+
+Inicialmente,
+
+  ler   lin col (fazer readline da primeira linha do arquivo de entrada)
+  ler   oi  oj  (fazer readline da segunda linha do arquivo de entrada, posicão da origem)
+  ler   di  dj  (fazer readline da terceira linha do arquivo de entrada, posicão do destino)
+   
+
+==================================
+
+Deseja-se construir LabM
+
+LabM = 
+
+-1  -1    -1     -1    -1     -1   -1 
+-1   1     2      3     4      5   -1
+-1   6     7      8     9     10   -1
+-1  11    12     13    14     15   -1
+-1  16    17     18    19     20   -1
+-1  -1   -1     -1    -1      -1   -1
+
+
+LabM = Lab com moldura (vai ter dimensao linM x colM, onde 
+
+  linM = lin + 2   
+  colM = col + 2
+
+
+LabM = [ ] # inicializado com vazio 
+
+(1) Como construir uma linha (lista)  de -1's:
+
+  lista_esp = [-1] * colM     # linha especial com -1's
+           lista_esp  vai ficar assim:   [-1  -1    -1     -1    -1    -1   -1 ]
+
+
+  Essa lista_esp deve ser acrescentada à matriz LabM (para ser a 0-sima linha de LabM)
+
+  Como fazer isso???????? <=================
+
+
+(2) Como acrescentar a LabM as outras linhas? 
+
+   Para as lin linhas intermediárias, queremos ter  -1 no início, seguida dos elementos de uma linha de Lab, seguida de -1 no final.
+
+   Fazer isso linha a linha
+   
+   listaM=[ ]
+   for  i para ler cada uma das lin linhas da matriz Lab (com readline) 
+          listaM.append(-1) #<=======           -1 é colocado no início de listaM
+          for j para ler as col colunas corresp. à uma linha da matriz Lab [ver a receita da leitura (arquivo) de uma matriz linha a linha]
+	           vai lendo e acrescentando os valores lidos  à listaM #<=== Como fazer isso?????
+	  acrescentar -1 à listaM (para ficar no fim da listaM) <===== Como fazer isso?????   
+          acrescentar listaM à matriz LabM <==== Como fazer isso???????
+    
+    Depois que construiu as nlin+1 linhas da matriz LabM,
+    falta acrescentar à LabM um última linha de -1's, ou seja, a lista_esp (que já foi construída acima)  <======== Como fazer isso????
+
+
+  Depois de construir LabM, imprimir na tela para ver se está ok.
+  Se estiver certo, pode gravar num arquivo (ver a receita para fazer os "write".
+  
+
+
+===============================================================================================================

@@ -1,0 +1,55 @@
+
+1) Procure entender o programa Pepys.py
+
+2) Veja o uso do módulo random
+   e depois o uso de randint(1, 6)  (usado para gerar um número inteiro pseudo-aleatório no intervalo de 1 a 6
+   para simular jogadas de um dado honesto de faces 1, 2, ...,6).
+   
+
+3) Execute o programa para valores de N bem grande. Cansou? Por que não deixar o computador fazer essas várias
+   simulações para você? (Veja o próximo item.) 
+   
+
+4) Malhas encaixadas.
+
+   Se vc entendeu bem o programa Pepys.py, faça um outro programa N_Pepys.py
+   para executar o programa Pepys.py para valores de N variando de 500 a 1000 (por exemplo),
+   e contabiliza quantas vezes ocorreu o Caso 1 e quantas vezes ocorreu o Caso 2.
+
+   Para isso, vc precisa fazer um comando
+
+   for N in range(500, 1000):
+   
+   
+   e colocar uma boa parte do programa Pepys.py dentro desse for.
+   O programa não deve ler cada valor de N, mas deixar que ele tome os valores 500, 501, ..., 1000
+   
+   Para cada valor de N, imprimir quantas vezes ocorreu o Caso 1 e quantas vezes ocorreu o Caso 2.
+   Esses valores são dados por tota1 e total2.
+   
+   Para cada valor de N, contabilizar qual o caso vencedor (se Caso 1 ou Caso 2), atualizando 
+   total1_geral ou total2_geral (de uma unidade). 
+   
+   No final, deseja-se saber o valor de total1_geral e total2_geral. 
+   
+   Ah... e deixe o import random na parte inicial do programa N_Pepys.py
+   
+   -----------------------------
+   OBS:
+   
+   Se vc não conseguir, não há problema. Veremos isso na aula.
+   Aqui vão ocorrer dois comandos iterativos "for"  encaixados.
+   Este é um tópico novo. Mas, vc pode tentar aprender sozinho
+   (como se usa dois comandos iterativos encaixados).  Talvez vc já tenha
+   usado no EP1 (mas o EP1 dá para ser feito sem usar dois comandos
+   iterativos encaixados).
+
+   Pode testar para valores pequenos, e deixar alguns print() para
+   ver o que está ocorrendo no seu programa. 
+   
+   
+   OBS:
+   -- experimente executar duas vezes o programa (e veja se vc obtém a mesma resposta).
+   -- comente o comando random.seed(1) e execute 2 ou mais vezes e veja as respostas finais.
+   
+        

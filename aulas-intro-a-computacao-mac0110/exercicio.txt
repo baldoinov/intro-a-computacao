@@ -1,0 +1,35 @@
+
+Problema1:
+
+  Dado um inteiro n>0 e uma sequência de n números inteiros positivos,
+  verificar quais deles e quantos deles são primos.
+
+  Para resolver este problema, vc deve necessariamente usar uma função que
+  testa se um número é primo.
+
+  Para se inspirar, veja os programas p35a e p35b.
+
+=============================================================
+
+Problema2
+
+Dado um inteiro positivo n, verificar quantas vezes cada um dos dígitos 0, 1,..., 9
+ocorre em n. Usar obrigatoriamente uma função
+
+     conta_dig(num, dig)
+
+que retorna o número de vezes que dig ocorre em num.
+
+
+Ex: se n = 1345689088855433001119, a solução seria:
+
+digito 0 ocorre 3 vezes
+digito 1 ocorre 4 vezes
+digito 2 ocorre 0 vezes
+digito 3 ocorre 3 vezes
+digito 4 ocorre 2 vezes
+digito 5 ocorre 3 vezes
+digito 6 ocorre 1 vezes
+digito 7 ocorre 0 vezes
+digito 8 ocorre 4 vezes
+digito 9 ocorre 2 vezes 

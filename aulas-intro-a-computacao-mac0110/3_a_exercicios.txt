@@ -1,0 +1,19 @@
+Exercícios para casa
+====================
+
+EX1- Dados um número inteiro n, n>=2, e uma sequência com n
+números inteiros, verificar se a sequência é uma progressão aritmética.
+
+-------------------------------------------------
+
+
+EX2-  Dado um número natural na base binária,
+     determinar o número natural  correspondente na base decimal.
+
+-------------------------------------------------
+
+EX3- Dado um número natural na base decimal,
+    determinar o número natural  correspondente na base binária.
+
+-------------------------------------------------
+

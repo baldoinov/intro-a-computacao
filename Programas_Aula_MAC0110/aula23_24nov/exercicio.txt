@@ -1,0 +1,25 @@
+
+Entrar no link
+
+   http://pythontutor.com/
+
+e simular a execucao dos programas
+
+   tutor_testa_cria_matriz.py
+   
+   tutor_testa_cria_matrizB.py
+
+
+Procure entender bem como é o funcionamento
+
+   -- das chamadas das funções, e quando volta para a função main.
+   
+   -- da criação das listas, etc.
+
+
+Entender bem a diferença das funções que criam uma matriz (nos dois programas)
+
+
+
+   
+

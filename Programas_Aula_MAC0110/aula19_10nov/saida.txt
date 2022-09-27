@@ -1,0 +1,14 @@
+AVISO: Os inteiros em cada uma das sequências fornecidas pelo 
+usuário devem estar em ORDEM ESTRITAMENTE CRESCENTE.
+
+Primeira sequencia: 
+[2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 24, 36, 40, 56]
+
+Segunda sequencia: 
+[3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
+
+Sequência resultante da intercalação das duas sequências.Seus 20 inteiros são: 
+[2, 3, 4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 24, 27, 30, 36, 40, 56]
+
+Sequência (com 20 inteiros) resultante da intercalação das duas sequências:
+2  3  4  6  8  9  10  12  14  15  16  18  20  21  24  27  30  36  40  56  

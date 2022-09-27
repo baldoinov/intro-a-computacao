@@ -1,0 +1,45 @@
+     MAC-110 --  Licenc. Mat. Noturno  -- LISTAS (arrays) - 10/out/2017
+   ========= ===================================
+Novidades:
+
+1) criação de lista  (diferentes formas)
+2) criação de lista e inicialização
+3) imprimindo listas 
+4) operações sobre  listas (digamos x)
+     len(x), max(x), min(x), x.reverse( )
+   
+
+PROBLEMA 1 - imprimir na ordem inversa
+========
+Dados um inteiro positivo n e uma sequência (lista)  de n inteiros,
+imprimi-los na ordem inversa à da leitura.
+
+=====================================
+
+PROBLEMA 2 - notas acima da média
+========
+   Dados um inteiro positivo n e uma lista de n notas 
+   (números reais entre 0 e 10), determinar quantas notas
+   estão acima da média.
+
+====================================
+
+PROBLEMA 3 - Apostas na roleta (números de 0 a 36)
+========
+   Dados um inteiro positivo n, simular n apostas na roleta, 
+   escolhendo n vezes um  número inteiro aleatório entre 0 e 36
+   (para isso, usar um gerador de números aleatorios). 
+   Para essas n jogadas, determinar 
+   (a) o número de ocorrencias de cada um dos 37 valores,
+   (b) quais números ocorrem o maior número de vezes.
+
+=====================================
+
+PROBLEMA 5 (inverter uma lista)
+=========
+
+Suponha que temos a lista  do PROBLEMA 1,
+e agora queremos que os seus elementos ocorram nessa lista
+em ordem inversa (os últimos passam a ser os primeiros).
+
+(Fazer sem usar a operacao   x.reverse( )
