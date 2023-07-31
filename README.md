@@ -1,31 +1,31 @@
-# Introdução a Computação - MAC0110 - IME/USP 2020.02
+# Introduction to Computer Science - MAC0110 - IME/USP 2020.02
 
-Esse repositório contém os materiais do curso de Introdução a Computação ministrado no 2º semestre de 2020 no IME-USP. Os enunciados dos exercícios de avaliação da matéria e minhas soluções foram indexados abaixo.
+This repository contains the materials for the Introduction to Computer Science course taught in the 2nd semester of 2020 at IME-USP. The programming exercises  and my solutions are indexed below.
 
-## Exercícios-Programas (EPs)
+## Programming Exercises (EPs)
 
-- ***EP0***: descobrir o ``T(n)`` de uma sequência de [*Tribonacci*](https://www.geeksforgeeks.org/tribonacci-numbers/).
-  - [*Minha solução*](EP0.py)
+- ***EP0***: finding the ``T(n)`` of the [*Tribonacci sequence*](https://www.geeksforgeeks.org/tribonacci-numbers/).
+  - [*My solution*](EP0.py)
 
-1. ***EP1***: verificar se o número ``n`` fornecido é a soma de três números primos consecutivos ou não.
-   1. [*Minha solução*](EP1.py)
-   2. [*Solução corrigida*](/EP1_CORRECAO.py)
+1. ***EP1***: checking if the given number ``n`` is the sum of three consecutive prime numbers or not.
+   1. [*My solution*](EP1.py)
+   2. [*Suggested solution*](/EP1_CORRECAO.py)
 
-2. ***EP2***: calcular um valor aproximado para $\pi$ usando quatro métodos diferentes, sempre controlando por um parâmetro de erro ``eps``.
-   1. [Enunciado completo.](EP2_ENUNCIADO_MAC0110.pdf)
-   2. [*Minha solução*](EP2.py)
+2. ***EP2***: calculate an approximation for $\pi$ using four different methods, always controlling for an error parameter ``eps``.
+   1. [Complete problem set.](EP2_ENUNCIADO_MAC0110.pdf)
+   2. [*My solution*](EP2.py)
 
-3. ***EP3***: resolver três problemas distintos que utilizam o algoritmo do [*Crivo de Eratóstenes*](https://pt.wikipedia.org/wiki/Crivo_de_Erat%C3%B3stenes) direta ou indiretamente, entre eles, a [*Conjectura de Goldbach*](https://pt.wikipedia.org/wiki/Conjetura_de_Goldbach).
-   1. [Enunciado completo.](EP3_ENUNCIADO_MAC0110.pdf)
-   2. [Exemplo de entrada e saída do EP.](EP3_EXEMPLO_ENTRADA_SAIDA.txt)
-   3. [*Minha solução*](EP3.PY)
+3. ***EP3***: solving three different problems that use the [*Sieve of Eratosthenes*](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) algorithm directly or indirectly, including the [*Goldbach's conjecture*](https://en.wikipedia.org/wiki/Goldbach%27s_conjecture).
+   1. [Complete problem set.](EP3_ENUNCIADO_MAC0110.pdf)
+   2. [Input and output examples.](EP3_EXEMPLO_ENTRADA_SAIDA.txt)
+   3. [*My solution*](EP3.PY)
 
-4. ***EP4***: encontrar um caminho mínimo entre dois pontos de um labirinto andando somente na horizontal e na vertical.
-   1. [Enunciado completo.](/EP4_ENUNCIADO_MAC0110.pdf)
-   2. [Explicação do algoritmo pela professora.](EP4_EXPLICAO_MARCACAO_DO_LABIRINTO.pdf)
-   3. [Labirintos de teste.](/inputs_ep4/)
-   4. [*Minha solução*](EP4.py)
+4. ***EP4***: finding a minimal path between two points in a maze, moving only horizontally and vertically.
+   1. [Complete problem set.](/EP4_ENUNCIADO_MAC0110.pdf)
+   2. [Worked-out example.](EP4_EXPLICAO_MARCACAO_DO_LABIRINTO.pdf)
+   3. [Test mazes.](/inputs_ep4/)
+   4. [*My solution*](EP4.py)
 
 ***
 
-Em caso de dúvidas ou quaisquer outras questões, você pode me mandar um [e-mail](mailto:vdbaldoino@gmail.com?subject=GitHub%20-%20MAC0110) ou me mandar uma mensagem pelo [LinkedIn](https://www.linkedin.com/in/vitorbaldoino/).
+If you have any questions or any other issues, please email me at [vdbaldoino@gmail.com](mailto:vdbaldoino@gmail.com?subject=Hi!%20I%20saw%20your%20GitHub!) or send me a message on [LinkedIn](https://www.linkedin.com/in/vitorbaldoino/).
